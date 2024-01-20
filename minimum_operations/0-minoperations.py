@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-"""Script to calculate the fewest number of operations to result in n H chars"""
+"""calculates the fewest number of operations to result in n H chars"""
+
 
 def minOperations(n):
     """Minimum Operations"""
