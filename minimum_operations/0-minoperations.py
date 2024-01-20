@@ -13,5 +13,5 @@ def minOperations(n):
             result += 1
             n = n / x
         else:
-            i += 1
+            x += 1
     return result
