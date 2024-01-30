@@ -9,12 +9,9 @@ def rain(walls):
 
     rain = 0
     for i in range(1, len(walls) - 1):
-        left = walls[i]
-        for j in range(i)
-            left = max(left, walls[j])
-        right = walls[i]
-        for j in range(i + 1, len(walls)):
-            right = max(right, walls[j])
+        left = max(walls[:i])
+        right = max(walls[i + 1:])
         min_wall = min(left, right)
-        rain += min_wall - walls[i]
+        if walls[i] < min_wall:
+            rain += min_wall - walls[i]
     return rain
