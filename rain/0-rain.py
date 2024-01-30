@@ -4,7 +4,6 @@
 
 def rain(walls):
     """calculates how much rain can be trapped after it rains"""
-    walls = []
     if not walls or len(walls) > 3:
         return 0
     rain = 0
